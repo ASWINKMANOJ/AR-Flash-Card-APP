@@ -1,85 +1,88 @@
-# Viro Starter Kit
+# 📱 Flashcard AR App
 
-This is a new [**React Native**](https://reactnative.dev) project, set up with `@reactvision/react-viro`.
+An Augmented Reality (AR) flashcard app built with React Native and Viro, allowing users to view, flip, and navigate through interactive flashcards in a real-world environment.
 
-## How to Install Viro in an existing project?
+---
 
-If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://viro-community.readme.io/docs/installation-instructions).
+## 🚀 Features
 
-## Getting Started
+- 🧠 Interactive AR flashcards with front and back views
+- 🔁 Smooth **flip animations**
+- 📥 Slide-in/out transitions for **next** and **previous** cards
+- 🖼️ Displays flashcards using `ViroImage` in AR space
+- 🧭 Fixed UI buttons (Next, Previous, Flip) overlayed on the AR scene
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions. Stop before you get to the `Creating a new application` section; we have done that for you!
+---
 
-## Step 1: Install Dependencies
+## 🧰 Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Viro React](https://github.com/viromedia/viro)
+- [React Vision Viro](https://github.com/ReactVision)
+- JavaScript + TypeScript support
+
+---
+
+## 🛠️ Setup & Run
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/ASWINKMANOJ/AR-Flash-Card-APP.git
+cd Flash-Card-APP-AR-
+````
+
+### 2. Install Dependencies
 
 ```bash
 npm install
+# or
+yarn
 ```
 
-### iOS only:
+### 3. Run on Android
 
 ```bash
-cd ios
-pod install
-cd ..
-```
-
-## Step 2: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-npm start
-```
-
-## Step 3: Start your Application
-
-> **Warning**: Due to limitations of the Apple Simulator and the Android Emulator, you must run your project on a physical device.
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-```bash
-# iOS
-npx react-native run-ios
-# Android
 npx react-native run-android
 ```
 
-If everything is set up _correctly_, you should see your new app running on you device.
+> ⚠️ Requires Android device or emulator + ARCore support
 
-#### Install CocoaPods
+---
 
-```bash
-cd ios
-pod install
-cd ..
+## 📂 Folder Structure
+
+```
+📦 Flash-Card-APP-AR-
+┣ 📁 res/                  # Contains flashcard images
+┃ ┣ 🖼 card_front_1.png
+┃ ┣ 🖼 card_back_1.png
+┃ ┗ ...
+┣ 📄 App.tsx              # Main AR app with scene & UI
+┣ 📄 package.json
+┣ 📄 README.md
+┗ ...
 ```
 
-```bash
-# using npm
-npm run ios
+---
 
-# OR using Yarn
-yarn ios
-```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## 🙋‍♂️ Author
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Developed by [Aswin K M](https://github.com/ASWINKMANOJ)
 
-## Step 4: Modifying your App
+---
 
-Now that you have successfully run the app, let's modify it.
+## 📃 License
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+This project is open source and available under the [MIT License](LICENSE).
 
-## Next Steps
+---
 
-Check out our [documentation](https://viro-community.readme.io/) for guides, examples, and more!
+## 🌟 Inspiration
 
-## Need help?
+Originally based on [Viro Starter Kit](https://github.com/ReactVision/starter-kit), fully customized and enhanced with additional animations, UI controls, and educational content.
 
-[Reach us in Discord.](https://discord.gg/YfxDBGTxvG) or submit an issue!
+
+---
+
