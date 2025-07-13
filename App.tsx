@@ -30,6 +30,38 @@ const flashcards = [
     front: require("./res/card_front_3.png"),
     back: require("./res/card_back_3.png"),
   },
+  {
+    front: require("./res/card_front_3.png"),
+    back: require("./res/card_back_3.png"),
+  },
+  {
+    front: require("./res/card_front_4.png"),
+    back: require("./res/card_back_4.png"),
+  },
+  {
+    front: require("./res/card_front_5.png"),
+    back: require("./res/card_back_5.png"),
+  },
+  {
+    front: require("./res/card_front_6.png"),
+    back: require("./res/card_back_6.png"),
+  },
+  {
+    front: require("./res/card_front_7.png"),
+    back: require("./res/card_back_7.png"),
+  },
+  {
+    front: require("./res/card_front_8.png"),
+    back: require("./res/card_back_8.png"),
+  },
+  {
+    front: require("./res/card_front_9.png"),
+    back: require("./res/card_back_9.png"),
+  },
+  {
+    front: require("./res/card_front_10.png"),
+    back: require("./res/card_back_10.png"),
+  },
 ];
 
 // Register materials for each flashcard
