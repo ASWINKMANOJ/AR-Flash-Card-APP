@@ -30,7 +30,7 @@ An Augmented Reality (AR) flashcard app built with React Native and Viro, allowi
 
 ```bash
 git clone https://github.com/ASWINKMANOJ/AR-Flash-Card-APP.git
-cd Flash-Card-APP-AR-
+cd AR-Flash-Card-APP
 ````
 
 ### 2. Install Dependencies
