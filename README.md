@@ -11,6 +11,7 @@ An Augmented Reality (AR) flashcard app built with React Native and Viro, allowi
 - 📥 Slide-in/out transitions for **next** and **previous** cards
 - 🖼️ Displays flashcards using `ViroImage` in AR space
 - 🧭 Fixed UI buttons (Next, Previous, Flip) overlayed on the AR scene
+- [Download the app from here](https://drive.google.com/file/d/1R3oUXLidDFya8uaYgQD3uYYZYMcotzuV/view?usp=drive_link)
 
 ---
 
